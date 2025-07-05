@@ -1,6 +1,12 @@
 import syllabus from "../data/syllabus.json";
 import { useState, useEffect } from "react";
-import { BookOpenCheck, CheckCheck, ChevronDown, ChevronUp } from "lucide-react";
+import {
+  BookOpenCheck,
+  CheckCheck,
+  ChevronDown,
+  ChevronUp,
+} from "lucide-react";
+import Navbar from "../components/Navbar";
 
 export default function SubjectList() {
   const [checked, setChecked] = useState({});
@@ -41,7 +47,9 @@ export default function SubjectList() {
           <BookOpenCheck className="w-7 h-7 text-blue-400" />
           CSE Semester {syllabus.semester} Tracker
         </h1>
-        <p className="text-sm text-gray-400 mt-1">Your progress is saved automatically</p>
+        <p className="text-sm text-gray-400 mt-1">
+          Your progress is saved automatically
+        </p>
       </div>
 
       <div className="space-y-6">
@@ -101,12 +109,16 @@ export default function SubjectList() {
                               <input
                                 type="checkbox"
                                 checked={!!checked[key]}
-                                onChange={() => toggleTopic(subject.name, topic)}
+                                onChange={() =>
+                                  toggleTopic(subject.name, topic)
+                                }
                                 className="mt-1 accent-blue-500"
                               />
                               <span
                                 className={
-                                  checked[key] ? "line-through text-gray-500" : ""
+                                  checked[key]
+                                    ? "line-through text-gray-500"
+                                    : ""
                                 }
                               >
                                 {topic}

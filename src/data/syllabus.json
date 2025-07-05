@@ -25,9 +25,10 @@
           "name": "Module II – Recurrence & Generating Functions",
           "hours": 9,
           "topics": [
+            "Recurrence Relations",
             "Classification of recurrence relations",
             "Solutions using characteristic-root method",
-            "Ordinary generating functions and their properties",
+            " Generating functions and their various aspects",
             "Applications of generating functions in solving recurrences"
           ]
         },
@@ -35,6 +36,7 @@
           "name": "Module III – Sets, Relations & Functions",
           "hours": 9,
           "topics": [
+            "sets",
             "Operations on sets and their computer representation",
             "Relations: properties, closures, digraph and matrix representation",
             "Equivalence relations, partial and total orders, Warshall’s algorithm",

@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">CseHub</string>
+    <string name="title_activity_main">CseHub</string>
+    <string name="package_name">com.CseHub.app</string>
+    <string name="custom_url_scheme">com.CseHub.app</string>
+</resources>
