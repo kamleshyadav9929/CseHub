@@ -1,39 +1,44 @@
-import { NavLink } from "react-router-dom";
-import {
-  FaHome,
-  FaChartBar,
-  FaCalendarDay,
-  FaBell,
-  FaCog,
-} from "react-icons/fa";
-
-const links = [
-  { path: "/", label: "Home", icon: <FaHome /> },
-  { path: "/day-tracker", label: "Tracker", icon: <FaCalendarDay /> },
-  { path: "/analytics", label: "Analytics", icon: <FaChartBar /> },
-  { path: "/reminders", label: "Reminders", icon: <FaBell /> },
-  { path: "/settings", label: "Settings", icon: <FaCog /> },
-];
+import { Link } from "react-router-dom";
+import { Settings, LayoutDashboard, Files } from "lucide-react";
+import logo from "../assets/logo.jpg";
 
 export default function Navbar() {
   return (
-    <nav className="fixed bottom-0 md:top-0 md:left-0 md:h-screen md:w-20 w-full flex md:flex-col bg-gray-900 border-t md:border-t-0 md:border-r border-gray-800 z-50">
-      {links.map((link, idx) => (
-        <NavLink
-          to={link.path}
-          key={idx}
-          className={({ isActive }) =>
-            `flex-1 md:flex-none md:w-full flex items-center justify-center py-3 md:py-6 text-sm text-gray-400 hover:text-white transition ${
-              isActive ? "text-blue-400" : ""
-            }`
-          }
-        >
-          <div className="flex flex-col items-center space-y-1">
-            <span className="text-lg">{link.icon}</span>
-            <span className="text-xs md:text-[10px]">{link.label}</span>
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-slate-900/80 backdrop-blur-lg border-b border-slate-700">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="flex items-center justify-between h-16">
+          {/* Logo and App Name */}
+          <Link to="/" className="flex items-center gap-3">
+            <img src={logo} alt="Logo" className="h-9 w-9 rounded-full" />
+            <span className="text-xl font-bold text-white">Study Tracker</span>
+          </Link>
+
+          {/* Navigation Links */}
+          <div className="flex items-center gap-4">
+            <Link
+              to="/dashboard"
+              className="hidden sm:flex items-center gap-2 text-gray-300 hover:text-white transition-colors"
+            >
+              <LayoutDashboard size={18} />
+              Dashboard
+            </Link>
+            <Link
+              to="/papers"
+              className="hidden sm:flex items-center gap-2 text-gray-300 hover:text-white transition-colors"
+            >
+              <Files size={18} />
+              Papers
+            </Link>
+            <Link
+              to="/settings"
+              className="p-2 rounded-full text-gray-300 hover:bg-slate-700 hover:text-white transition-colors"
+              title="Settings"
+            >
+              <Settings size={20} />
+            </Link>
           </div>
-        </NavLink>
-      ))}
+        </div>
+      </div>
     </nav>
   );
 }

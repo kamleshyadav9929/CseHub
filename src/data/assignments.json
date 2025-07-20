@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "title": "Complete Module 1 Exercise",
+    "subject": "Discrete Mathematics",
+    "dueDate": "2025-08-10",
+    "completed": false
+  },
+  {
+    "id": 2,
+    "title": "Lab Assignment 1",
+    "subject": "Data Structures Lab",
+    "dueDate": "2025-08-15",
+    "completed": true
+  },
+  {
+    "id": 3,
+    "title": "Design a 4-bit Adder",
+    "subject": "Digital System Design",
+    "dueDate": "2025-08-20",
+    "completed": false
+  }
+]

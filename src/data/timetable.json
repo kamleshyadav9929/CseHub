@@ -1,0 +1,51 @@
+{
+  "Monday": [
+    {
+      "id": 1,
+      "subject": "Data Structures",
+      "startTime": "10:00",
+      "endTime": "10:50",
+      "location": "Room 301",
+      "color": "#3B82F6"
+    },
+    {
+      "id": 2,
+      "subject": "Discrete Mathematics",
+      "startTime": "14:00",
+      "endTime": "14:50",
+      "location": "Room 205",
+      "color": "#EC4899"
+    }
+  ],
+  "Tuesday": [
+    {
+      "id": 3,
+      "subject": "Digital System Design",
+      "startTime": "09:00",
+      "endTime": "09:50",
+      "location": "Room 302",
+      "color": "#8B5CF6"
+    }
+  ],
+  "Wednesday": [
+    {
+      "id": 4,
+      "subject": "Data Structures Lab",
+      "startTime": "14:00",
+      "endTime": "16:50",
+      "location": "Lab 5",
+      "color": "#10B981"
+    }
+  ],
+  "Thursday": [],
+  "Friday": [
+     {
+      "id": 5,
+      "subject": "Computer Org. & Arch.",
+      "startTime": "11:00",
+      "endTime": "11:50",
+      "location": "Room 301",
+      "color": "#F59E0B"
+    }
+  ]
+}

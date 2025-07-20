@@ -1,94 +1,154 @@
-import { useNavigate } from "react-router-dom";
 import {
-  FaBook,
-  FaCalendarAlt,
-  FaChartLine,
-  FaBell,
-  FaCog,
-} from "react-icons/fa";
-import logo from "../assets/logo.jpg";
+  ArrowRight,
+  BarChart3,
+  BookOpenCheck,
+  BrainCircuit,
+  Calendar,
+  CalendarDays,
+  ClipboardList,
+  FileText,
+  Settings,
+} from "lucide-react";
+import React from "react";
+import { useNavigate } from "react-router-dom";
 import hero from "../assets/hero.jpg";
-import HamburgerMenu from "../components/HamburgerMenu";
+import Navbar from "../components/Navbar";
 
 export default function Home() {
   const navigate = useNavigate();
 
-  const quickLinks = [
-    { label: "Subjects", icon: <FaBook />, path: "/dashboard" },
-    { label: "Day Tracker", icon: <FaCalendarAlt />, path: "/day-tracker" },
-    { label: "Analytics", icon: <FaChartLine />, path: "/analytics" },
-    { label: "Reminders", icon: <FaBell />, path: "/reminders" },
-    { label: "Settings", icon: <FaCog />, path: "/settings" },
+  // 2. Add the AI Quiz Generator to the features array
+  const features = [
+    {
+      label: "Syllabus Tracker",
+      icon: <BookOpenCheck />,
+      path: "/dashboard",
+      description:
+        "Visualize and track your progress through every subject and module.",
+    },
+    {
+      label: "Past Papers",
+      icon: <FileText />,
+      path: "/papers",
+      description:
+        "Access a centralized archive of previous year question papers.",
+    },
+    {
+      label: "Assignment Hub",
+      icon: <ClipboardList />,
+      path: "/assignments",
+      description:
+        "Never miss a deadline. Add and manage all your assignments.",
+    },
+    {
+      label: "Timetable",
+      icon: <Calendar />,
+      path: "/timetable",
+      description:
+        "View and manage your weekly class schedule in a customizable grid.",
+    },
+    {
+      label: "AI Quiz Generator", // <-- New Link
+      icon: <BrainCircuit />,
+      path: "/dashboard", // <-- Directs to dashboard to select a module first
+      description:
+        "Test your knowledge with quizzes generated from your own notes.",
+    },
+    {
+      label: "Analytics",
+      icon: <BarChart3 />,
+      path: "/analytics",
+      description:
+        "Get insights into your study patterns and subject performance.",
+    },
+    {
+      label: "Day Tracker",
+      icon: <CalendarDays />,
+      path: "/day-tracker",
+      description:
+        "Plan your study sessions and manage your daily schedule efficiently.",
+    },
+    {
+      label: "Settings",
+      icon: <Settings />,
+      path: "/settings",
+      description: "Customize the app, manage your data, and set preferences.",
+    },
   ];
 
-  const handleNavigate = (path) => {
-    navigate(path);
-  };
-
   return (
-    <div className="min-h-screen bg-gray-900 text-white flex flex-col items-center px-4 py-8">
-      {/* Hamburger Menu */}
-      <HamburgerMenu />
-      {/* Header */}
-      <header className="flex items-center gap-3 mb-10">
-        <img
-          src={logo}
-          alt="Logo"
-          className="h-12 w-12 rounded-full border border-blue-400"
-        />
-        <h1 className="text-2xl font-bold"> Study Tracker</h1>
-      </header>
+    <div className="min-h-screen bg-slate-900 text-white">
+      <Navbar />
 
       {/* Hero Section */}
-      <section className="flex flex-col-reverse md:flex-row items-center justify-between max-w-6xl w-full gap-10">
-        {/* Text */}
-        <div className="w-full md:w-1/2 text-center md:text-left">
-          <h2 className="text-4xl font-extrabold mb-4">
-            Your Smart Companion to Track Your Studies
-          </h2>
-          <p className="text-gray-300 mb-6">
-            Track topics, monitor progress, set reminders & stay ahead in your
-            semester. Let’s study smart!
-          </p>
-          <button
-            onClick={() => navigate("/day-tracker")}
-            className="bg-blue-600 hover:bg-blue-700 px-6 py-3 rounded-full font-semibold transition"
-          >
-            Start tracking
-          </button>
-        </div>
-
-        {/* Hero Image */}
-        <div className="w-full md:w-1/2 flex justify-center ">
-          <img
-            src={hero}
-            alt="Study Tracker Hero"
-            className="w-full max-w-xs sm:max-w-md rounded-lg shadow-lg"
-          />
-        </div>
-      </section>
-
-      {/* Quick Links Section */}
-      <section className="mt-16 w-full max-w-5xl text-center ">
-        <h2 className="text-2xl font-semibold mb-6 text-blue-400">
-          🔗 Quick Links
-        </h2>
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-4">
-          {quickLinks.map((link, i) => (
-            <div
-              key={i}
-              onClick={() => handleNavigate(link.path)}
-              className="bg-gray-800 hover:bg-blue-600 cursor-pointer transition-all p-4 rounded-xl flex flex-col items-center shadow"
-            >
-              <div className="text-2xl mb-2">{link.icon}</div>
-              <p className="text-sm font-medium">{link.label}</p>
+      <main className="pt-24 sm:pt-32">
+        <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col-reverse md:flex-row items-center gap-10">
+          {/* Left Side: Text Content */}
+          <div className="md:w-1/2 text-center md:text-left">
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-white">
+              Your Smart Companion for Academic Success
+            </h1>
+            <p className="mt-6 text-lg text-slate-300 max-w-lg mx-auto md:mx-0">
+              Track your syllabus, manage deadlines, and access study
+              materials—all in one place. Stop juggling and start learning
+              smarter.
+            </p>
+            <div className="mt-8 flex gap-4 justify-center md:justify-start">
+              <button
+                onClick={() => navigate("/dashboard")}
+                className="bg-blue-600 hover:bg-blue-700 px-6 py-3 rounded-lg font-semibold transition-transform hover:scale-105 flex items-center gap-2"
+              >
+                Go to Dashboard
+                <ArrowRight size={20} />
+              </button>
             </div>
-          ))}
-        </div>
-      </section>
+          </div>
+
+          {/* Right Side: Hero Image */}
+          <div className="md:w/1/2 flex justify-center">
+            <img
+              src={hero}
+              alt="Study Tracker Hero"
+              className="w-full max-w-md rounded-2xl shadow-2xl shadow-blue-500/20"
+            />
+          </div>
+        </section>
+
+        {/* Features Section */}
+        <section className="mt-24 sm:mt-32 py-16 bg-slate-800/50">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 className="text-3xl font-bold text-white">
+              A Powerful Toolkit for Every Student
+            </h2>
+            <p className="mt-4 text-slate-300">
+              Everything you need to stay organized and excel in your semester.
+            </p>
+            {/* 3. Update grid classes for 8 items */}
+            <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+              {features.map((feature) => (
+                <div
+                  key={feature.label}
+                  onClick={() => navigate(feature.path)}
+                  className="bg-slate-800 p-6 rounded-xl border border-slate-700 cursor-pointer transition-all duration-300 hover:border-blue-500 hover:scale-105"
+                >
+                  <div className="text-blue-400 w-fit mx-auto mb-4">
+                    {React.cloneElement(feature.icon, { size: 32 })}
+                  </div>
+                  <h3 className="text-xl font-semibold text-white">
+                    {feature.label}
+                  </h3>
+                  <p className="mt-2 text-sm text-slate-400">
+                    {feature.description}
+                  </p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+      </main>
 
       {/* Footer */}
-      <footer className="mt-16 text-sm text-gray-400 text-center">
+      <footer className="py-8 text-center text-slate-400">
         Made with ❤️ for BIT Patna CSE Students
       </footer>
     </div>

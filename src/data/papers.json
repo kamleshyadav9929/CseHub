@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "subject": "Discrete Mathematics",
+    "papers": [
+      { "year": 2023, "type": "Mid-Semester", "url": "https://www.bitmesra.ac.in/UploadedDocuments/pratyush/custom_menu/20240112124921_MA205_MS_2023.pdf" },
+      { "year": 2022, "type": "End-Semester", "url": "https://www.bitmesra.ac.in/UploadedDocuments/pratyush/custom_menu/20230525155938_MA205_ES_2022.pdf" },
+      { "year": 2022, "type": "Mid-Semester", "url": "https://www.bitmesra.ac.in/UploadedDocuments/pratyush/custom_menu/20230525160004_MA205_MS_2022.pdf" },
+      { "year": 2021, "type": "End-Semester", "url": "https://www.bitmesra.ac.in/UploadedDocuments/pratyush/custom_menu/20230525160027_MA205_ES_2021.pdf" }
+    ]
+  },
+  {
+    "id": 2,
+    "subject": "Data Structures",
+    "papers": [
+      { "year": 2023, "type": "Mid-Semester", "url": "https://www.bitmesra.ac.in/UploadedDocuments/pratyush/custom_menu/20240112124754_CS231_MS_2023.pdf" },
+      { "year": 2022, "type": "End-Semester", "url": "https://www.bitmesra.ac.in/UploadedDocuments/pratyush/custom_menu/20230525155701_CS231_ES_2022.pdf" },
+      { "year": 2022, "type": "Mid-Semester", "url": "https://www.bitmesra.ac.in/UploadedDocuments/pratyush/custom_menu/20230525155725_CS231_MS_2022.pdf" }
+    ]
+  },
+  {
+    "id": 3,
+    "subject": "Digital System Design",
+    "papers": [
+        { "year": 2023, "type": "Mid-Semester", "url": "https://www.bitmesra.ac.in/UploadedDocuments/pratyush/custom_menu/20240112124843_EC203_MS_2023.pdf" },
+        { "year": 2022, "type": "End-Semester", "url": "https://www.bitmesra.ac.in/UploadedDocuments/pratyush/custom_menu/20230525155823_EC203_ES_2022.pdf" },
+        { "year": 2022, "type": "Mid-Semester", "url": "https://www.bitmesra.ac.in/UploadedDocuments/pratyush/custom_menu/20230525155850_EC203_MS_2022.pdf" }
+    ]
+  },
+  {
+    "id": 4,
+    "subject": "Object-Oriented Programming & Design Pattern",
+    "papers": [
+        { "year": 2023, "type": "Mid-Semester", "url": "https://www.bitmesra.ac.in/UploadedDocuments/pratyush/custom_menu/20240112124817_CS233_MS_2023.pdf" },
+        { "year": 2022, "type": "End-Semester", "url": "https://www.bitmesra.ac.in/UploadedDocuments/pratyush/custom_menu/20230525155749_CS233_ES_2022.pdf" }
+    ]
+  },
+  {
+    "id": 5,
+    "subject": "Computer Organization & Architecture",
+    "papers": [
+        { "year": 2023, "type": "Mid-Semester", "url": "https://www.bitmesra.ac.in/UploadedDocuments/pratyush/custom_menu/20240112124829_CS235_MS_2023.pdf" },
+        { "year": 2022, "type": "End-Semester", "url": "https://www.bitmesra.ac.in/UploadedDocuments/pratyush/custom_menu/20230525155806_CS235_ES_2022.pdf" }
+    ]
+  }
+]

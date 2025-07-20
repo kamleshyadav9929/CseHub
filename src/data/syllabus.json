@@ -7,59 +7,34 @@
       "type": "Theory",
       "modules": [
         {
+          "id": "MA205_M1",
           "name": "Module I – Logic & Proof Techniques",
           "hours": 9,
-          "topics": [
-            "Mathematical logic and Mathematical Reasoning",
-            "Compound Statements",
-            " Propositional ",
-            "Equivalences",
-            " Predicates and Quantifiers",
-            " Methods of Proof",
-            "Mathematical Induction",
-            "Well- ordering principal",
-            "Recursive Definition and Algorithms"
-          ]
+          "topics": ["Mathematical logic and Mathematical Reasoning", "Compound Statements", "Propositional Equivalences", "Predicates and Quantifiers", "Methods of Proof", "Mathematical Induction", "Well- ordering principal", "Recursive Definition and Algorithms"]
         },
         {
+          "id": "MA205_M2",
           "name": "Module II – Recurrence & Generating Functions",
           "hours": 9,
-          "topics": [
-            "Recurrence Relations",
-            "Classification of recurrence relations",
-            "Solutions using characteristic-root method",
-            " Generating functions and their various aspects",
-            "Applications of generating functions in solving recurrences"
-          ]
+          "topics": ["Recurrence Relations", "Classification of recurrence relations", "Solutions using characteristic-root method", "Generating functions and their various aspects", "Applications of generating functions in solving recurrences"]
         },
         {
+          "id": "MA205_M3",
           "name": "Module III – Sets, Relations & Functions",
           "hours": 9,
-          "topics": [
-            "sets",
-            "Operations on sets and their computer representation",
-            "Relations: properties, closures, digraph and matrix representation",
-            "Equivalence relations, partial and total orders, Warshall’s algorithm",
-            "Functions: injective, surjective, bijective; growth of functions, Big-O"
-          ]
+          "topics": ["sets", "Operations on sets and their computer representation", "Relations: properties, closures, digraph and matrix representation", "Equivalence relations, partial and total orders, Warshall’s algorithm", "Functions: injective, surjective, bijective; growth of functions, Big-O"]
         },
         {
+          "id": "MA205_M4",
           "name": "Module IV – Algebraic Structures & Coding",
           "hours": 9,
-          "topics": [
-            "Binary operations, groups, semigroups and monoids",
-            "Permutation groups, cyclic permutations and transpositions",
-            "Coding of binary information, error detection and correction"
-          ]
+          "topics": ["Binary operations, groups, semigroups and monoids", "Permutation groups, cyclic permutations and transpositions", "Coding of binary information, error detection and correction"]
         },
         {
+          "id": "MA205_M5",
           "name": "Module V – Graph Theory Fundamentals",
           "hours": 9,
-          "topics": [
-            "Graph terminology, representations and isomorphism",
-            "Connected/disconnected graphs, Euler & Hamiltonian graphs",
-            "Trees, traversals, spanning trees and minimum spanning trees"
-          ]
+          "topics": ["Graph terminology, representations and isomorphism", "Connected/disconnected graphs, Euler & Hamiltonian graphs", "Trees, traversals, spanning trees and minimum spanning trees"]
         }
       ]
     },
@@ -69,50 +44,34 @@
       "type": "Theory",
       "modules": [
         {
+          "id": "EC203_M1",
           "name": "Module I – Basics of Digital Electronics",
           "hours": 8,
-          "topics": [
-            "Number representation and base conversions",
-            "BCD & other binary codes, binary arithmetic",
-            "Logic gates, logic families and their comparison",
-            "Introduction to HDL (VHDL, Verilog)"
-          ]
+          "topics": ["Number representation and base conversions", "BCD & other binary codes, binary arithmetic", "Logic gates, logic families and their comparison", "Introduction to HDL (VHDL, Verilog)"]
         },
         {
+          "id": "EC203_M2",
           "name": "Module II – Boolean Function Simplification",
           "hours": 8,
-          "topics": [
-            "Boolean algebra, De-Morgan’s theorem, canonical forms",
-            "Karnaugh map (up to 6 variables), Quine–McCluskey method",
-            "Implementation with NAND & NOR gates"
-          ]
+          "topics": ["Boolean algebra, De-Morgan’s theorem, canonical forms", "Karnaugh map (up to 6 variables), Quine–McCluskey method", "Implementation with NAND & NOR gates"]
         },
         {
+          "id": "EC203_M3",
           "name": "Module III – Combinational Circuit Design",
           "hours": 8,
-          "topics": [
-            "Adders, subtractors, look-ahead carry adder, BCD adder",
-            "Parity generators/checkers, comparators, encoders/decoders",
-            "Multiplexers, demultiplexers, 1-bit ALU"
-          ]
+          "topics": ["Adders, subtractors, look-ahead carry adder, BCD adder", "Parity generators/checkers, comparators, encoders/decoders", "Multiplexers, demultiplexers, 1-bit ALU"]
         },
         {
+          "id": "EC203_M4",
           "name": "Module IV – Sequential Circuits & Memories",
           "hours": 8,
-          "topics": [
-            "Latches and flip-flops (SR, JK, D, T, master-slave)",
-            "Counters (synchronous / asynchronous), shift registers",
-            "Types of memories, PLDs: ROM, PLA, PAL"
-          ]
+          "topics": ["Latches and flip-flops (SR, JK, D, T, master-slave)", "Counters (synchronous / asynchronous), shift registers", "Types of memories, PLDs: ROM, PLA, PAL"]
         },
         {
+          "id": "EC203_M5",
           "name": "Module V – Simple Computing Machines",
           "hours": 8,
-          "topics": [
-            "SAP-I concepts, timing diagrams, microinstructions",
-            "Fetch–execute cycle, microprogramming & control matrix",
-            "Bus concepts, pipelining introduction"
-          ]
+          "topics": ["SAP-I concepts, timing diagrams, microinstructions", "Fetch–execute cycle, microprogramming & control matrix", "Bus concepts, pipelining introduction"]
         }
       ]
     },
@@ -122,48 +81,34 @@
       "type": "Theory",
       "modules": [
         {
+          "id": "CS231_M1",
           "name": "Module I – Basic Concepts",
           "hours": 8,
-          "topics": [
-            "Abstract Data Types, algorithm analysis, asymptotic notations",
-            "Array representations, multidimensional arrays",
-            "Polynomial operations, sparse matrix representation"
-          ]
+          "topics": ["Abstract Data Types, algorithm analysis, asymptotic notations", "Array representations, multidimensional arrays", "Polynomial operations, sparse matrix representation"]
         },
         {
+          "id": "CS231_M2",
           "name": "Module II – Stacks & Queues",
           "hours": 8,
-          "topics": [
-            "Stack & Queue ADTs and array/linked implementations",
-            "Circular queue, double-ended queue",
-            "Expression conversion & evaluation, maze problem"
-          ]
+          "topics": ["Stack & Queue ADTs and array/linked implementations", "Circular queue, double-ended queue", "Expression conversion & evaluation, maze problem"]
         },
         {
+          "id": "CS231_M3",
           "name": "Module III – Linked Lists",
           "hours": 8,
-          "topics": [
-            "Singly, circular and doubly linked lists",
-            "Linked representation of polynomials & sparse matrices"
-          ]
+          "topics": ["Singly, circular and doubly linked lists", "Linked representation of polynomials & sparse matrices"]
         },
         {
+          "id": "CS231_M4",
           "name": "Module IV – Trees & Graphs",
           "hours": 8,
-          "topics": [
-            "Binary search tree operations, heaps and priority queues",
-            "Disjoint set ADT, graph representations",
-            "BFS, DFS, spanning tree, connected components"
-          ]
+          "topics": ["Binary search tree operations, heaps and priority queues", "Disjoint set ADT, graph representations", "BFS, DFS, spanning tree, connected components"]
         },
         {
+          "id": "CS231_M5",
           "name": "Module V – Searching & Sorting",
           "hours": 8,
-          "topics": [
-            "Sequential and binary search",
-            "Insertion, heap and radix sort",
-            "External sorting: k-way merge"
-          ]
+          "topics": ["Sequential and binary search", "Insertion, heap and radix sort", "External sorting: k-way merge"]
         }
       ]
     },
@@ -173,45 +118,34 @@
       "type": "Theory",
       "modules": [
         {
+          "id": "CS233_M1",
           "name": "Module I – Introduction to OOP & Java",
           "hours": 8,
-          "topics": [
-            "Object technology concepts, Java basics, classes & objects",
-            "Primitive vs reference types, strings, basic arithmetic"
-          ]
+          "topics": ["Object technology concepts, Java basics, classes & objects", "Primitive vs reference types, strings, basic arithmetic"]
         },
         {
+          "id": "CS233_M2",
           "name": "Module II – Control Statements & Arrays",
           "hours": 8,
-          "topics": [
-            "Selection & iteration constructs, methods, recursion",
-            "One-/multi-dimensional arrays, ArrayList, command-line args"
-          ]
+          "topics": ["Selection & iteration constructs, methods, recursion", "One-/multi-dimensional arrays, ArrayList, command-line args"]
         },
         {
+          "id": "CS233_M3",
           "name": "Module III – Inheritance & Interfaces",
           "hours": 8,
-          "topics": [
-            "Access control, this/super, polymorphism, abstract classes",
-            "Interfaces, multiple inheritance via interfaces, packages"
-          ]
+          "topics": ["Access control, this/super, polymorphism, abstract classes", "Interfaces, multiple inheritance via interfaces, packages"]
         },
         {
+          "id": "CS233_M4",
           "name": "Module IV – Exception Handling & GUI",
           "hours": 8,
-          "topics": [
-            "Java exception model, try-catch-finally, user exceptions",
-            "Swing/AWT components, event handling, layout managers"
-          ]
+          "topics": ["Java exception model, try-catch-finally, user exceptions", "Swing/AWT components, event handling, layout managers"]
         },
         {
+          "id": "CS233_M5",
           "name": "Module V – Strings, Files & Advanced Features",
           "hours": 8,
-          "topics": [
-            "StringBuilder, tokenizer, regex",
-            "File I/O, NIO, object serialization",
-            "Threads, generics, lambda expressions"
-          ]
+          "topics": ["StringBuilder, tokenizer, regex", "File I/O, NIO, object serialization", "Threads, generics, lambda expressions"]
         }
       ]
     },
@@ -221,45 +155,34 @@
       "type": "Theory",
       "modules": [
         {
+          "id": "CS235_M1",
           "name": "Module I – Basic Structure of Computers",
           "hours": 5,
-          "topics": [
-            "Digital logic basics, functional units, fixed vs floating-point",
-            "Performance metrics, historical perspective"
-          ]
+          "topics": ["Digital logic basics, functional units, fixed vs floating-point", "Performance metrics, historical perspective"]
         },
         {
+          "id": "CS235_M2",
           "name": "Module II – Instruction Set Architecture",
           "hours": 5,
-          "topics": [
-            "Memory locations/addresses, addressing modes",
-            "Instruction sequencing, subroutines, assembly concepts"
-          ]
+          "topics": ["Memory locations/addresses, addressing modes", "Instruction sequencing, subroutines, assembly concepts"]
         },
         {
+          "id": "CS235_M3",
           "name": "Module III – Basic Processing Unit & Pipelining",
           "hours": 10,
-          "topics": [
-            "Instruction execution steps, hardwired control, CISC style",
-            "Pipeline organization, hazards, performance evaluation"
-          ]
+          "topics": ["Instruction execution steps, hardwired control, CISC style", "Pipeline organization, hazards, performance evaluation"]
         },
         {
+          "id": "CS235_M4",
           "name": "Module IV – Memory Organization",
           "hours": 10,
-          "topics": [
-            "Semiconductor memories, cache, virtual memory",
-            "DMA, memory hierarchy and management"
-          ]
+          "topics": ["Semiconductor memories, cache, virtual memory", "DMA, memory hierarchy and management"]
         },
         {
+          "id": "CS235_M5",
           "name": "Module V – I/O & Parallel Processing",
           "hours": 10,
-          "topics": [
-            "I/O device access, interrupts, bus structures",
-            "Hardware multithreading, SIMD, shared-memory multiprocessors",
-            "Cache coherence, message-passing, performance modeling"
-          ]
+          "topics": ["I/O device access, interrupts, bus structures", "Hardware multithreading, SIMD, shared-memory multiprocessors", "Cache coherence, message-passing, performance modeling"]
         }
       ]
     },
@@ -269,20 +192,9 @@
       "type": "Lab",
       "modules": [
         {
+          "id": "EC204_M1",
           "name": "Experiments",
-          "topics": [
-            "CMOS inverter design",
-            "Truth table verification of NAND & XOR (IC 7400)",
-            "Seven-segment display unit design",
-            "Half & full adder circuits using gates/IC 7483",
-            "3:8 decoder, 8:3 priority encoder",
-            "4-bit magnitude comparator",
-            "8:1 MUX & 1:4 DEMUX",
-            "ALU design (ADD, SUB, OR, AND, XOR, INC, DEC, CMP)",
-            "Decade counter, presettable up/down counter",
-            "ROM (8×4) design with decoder & diodes",
-            "All above implemented and verified using VHDL"
-          ]
+          "topics": ["CMOS inverter design", "Truth table verification of NAND & XOR (IC 7400)", "Seven-segment display unit design", "Half & full adder circuits using gates/IC 7483", "3:8 decoder, 8:3 priority encoder", "4-bit magnitude comparator", "8:1 MUX & 1:4 DEMUX", "ALU design (ADD, SUB, OR, AND, XOR, INC, DEC, CMP)", "Decade counter, presettable up/down counter", "ROM (8×4) design with decoder & diodes", "All above implemented and verified using VHDL"]
         }
       ]
     },
@@ -292,19 +204,9 @@
       "type": "Lab",
       "modules": [
         {
+          "id": "CS232_M1",
           "name": "Experiments",
-          "topics": [
-            "Array creation and basic operations",
-            "Stack & queue implementations (array and linked)",
-            "Expression conversion (infix↔postfix) and evaluation",
-            "Linked list operations (singly, doubly, circular)",
-            "Polynomial addition using linked list",
-            "Binary tree creation and traversals (iterative)",
-            "Heap, AVL, B-tree implementations",
-            "Sorting algorithms (bubble, merge, heap, quick, selection)",
-            "Graph algorithms (topological sort, BFS, DFS)",
-            "Searching algorithms (linear, binary) using arrays/pointers"
-          ]
+          "topics": ["Array creation and basic operations", "Stack & queue implementations (array and linked)", "Expression conversion (infix↔postfix) and evaluation", "Linked list operations (singly, doubly, circular)", "Polynomial addition using linked list", "Binary tree creation and traversals (iterative)", "Heap, AVL, B-tree implementations", "Sorting algorithms (bubble, merge, heap, quick, selection)", "Graph algorithms (topological sort, BFS, DFS)", "Searching algorithms (linear, binary) using arrays/pointers"]
         }
       ]
     },
@@ -314,20 +216,9 @@
       "type": "Lab",
       "modules": [
         {
+          "id": "CS234_M1",
           "name": "Experiments",
-          "topics": [
-            "Scanner-based programs (char classification, digit sum prime check)",
-            "Array manipulations (largest/smallest elements, frequency counts)",
-            "2-D array reversal and max element identification",
-            "Class & constructor design (Box volume, Rectangle area/color)",
-            "Inheritance & polymorphism (Animal/Bird, Person/Student/Teacher)",
-            "Overloading & overriding (Account operations, Fruit hierarchy)",
-            "String processing (reverse words, longest palindrome, word surround)",
-            "Abstract classes & interfaces (Rail coach, student grading)",
-            "Exception handling (array bounds, age validation)",
-            "File handling & multithreading (char frequency, sales/day display)",
-            "GUI applications (Calculator, unit converter, applets with graphics)"
-          ]
+          "topics": ["Scanner-based programs (char classification, digit sum prime check)", "Array manipulations (largest/smallest elements, frequency counts)", "2-D array reversal and max element identification", "Class & constructor design (Box volume, Rectangle area/color)", "Inheritance & polymorphism (Animal/Bird, Person/Student/Teacher)", "Overloading & overriding (Account operations, Fruit hierarchy)", "String processing (reverse words, longest palindrome, word surround)", "Abstract classes & interfaces (Rail coach, student grading)", "Exception handling (array bounds, age validation)", "File handling & multithreading (char frequency, sales/day display)", "GUI applications (Calculator, unit converter, applets with graphics)"]
         }
       ]
     }
